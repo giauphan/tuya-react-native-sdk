@@ -36,7 +36,7 @@ repositories {
         url "$projectDir/../node_modules/react-native/android"
     }
     flatDir {
-        dirs 'libs'
+        dirs "$projectDir/../node_modules/tuya-react-native-sdk/sdk/android/libs"
     }
 }
 dependencies {
